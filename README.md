@@ -78,6 +78,8 @@ brew services start elastic/tap/elasticsearch-full
 
 brew services stop elastic/tap/elasticsearch-full
 brew services
+
+#http://localhost:9200
 ```
 
 # Install Kibana on macOS
@@ -87,4 +89,5 @@ brew services start elastic/tap/kibana-full
 
 brew services stop elastic/tap/kibana-full
 brew services
+#http://localhost:5601
 
