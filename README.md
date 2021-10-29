@@ -34,6 +34,8 @@ sudo systemctl stop elasticsearch.service
 ```sh
 curl -X GET http://127.0.0.1:9200
 ```
+
+Install Elasticsearch Mac
 https://stackoverflow.com/questions/58656747/elasticsearch-job-for-elasticsearch-service-failed
 
 ## Install Kibana (CentOS 7)
@@ -66,4 +68,23 @@ sudo systemctl start kibana.service
 sudo systemctl stop kibana.service
 ```
 
+# Install elasticsearch on macOS
+https://www.elastic.co/guide/en/elasticsearch/reference/7.15/brew.html
+https://logz.io/blog/brew-install-elasticsearch-mac/
+```sh
+brew tap elastic/tap
+brew install elastic/tap/elasticsearch-full
+brew services start elastic/tap/elasticsearch-full
+
+brew services stop elastic/tap/elasticsearch-full
+brew services
+```
+
+# Install Kibana on macOS
+```sh
+brew install elastic/tap/kibana-full
+brew services start elastic/tap/kibana-full
+
+brew services stop elastic/tap/kibana-full
+brew services
 
