@@ -69,8 +69,8 @@ sudo systemctl stop kibana.service
 ```
 
 # Install elasticsearch on macOS
-https://www.elastic.co/guide/en/elasticsearch/reference/7.15/brew.html
-https://logz.io/blog/brew-install-elasticsearch-mac/
+- https://www.elastic.co/guide/en/elasticsearch/reference/7.15/brew.html
+- https://logz.io/blog/brew-install-elasticsearch-mac/
 ```sh
 brew tap elastic/tap
 brew install elastic/tap/elasticsearch-full
